@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lights Collection</title>
+<style>
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #111;
+}
+header {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+nav {
+    background: orange;
+    padding: 15px;
+    text-align: center;
+}
+nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 15px;
+}
+nav a:hover {
+    color: green;
+}
+.lights {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+	
+}
+.box {
+    background: white;
+    width: 300px;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px gray;
+    transition: transform 0.3s;
+}
+.box:hover {
+    transform: scale(1.1);
+}
+.box img {
+    width: 180px;
+    height: 150px;
+    object-fit: cover;
+}
+h2 {
+    color: orange;
+}
+button {
+    background: orange;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.r{
+color:orange;
+}
+ button {
+            background-color: orange;
+            color: black;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: black;
+            color: white;
+        }
+		@media(max-width:400px){
+            .lights{
+                grid-template-columns:1fr;
+            }
+        }
+        @media(min-width:600px){
+            .lights{
+                grid-template-columns: repeat(2,1fr);
+            }
+        }
+        @media(min-width:900px){
+            .lights{
+                grid-template-columns: repeat(3,1fr);
+            }
+        }
+
+</style>
+</head>
+<body>
+
+<header>
+<h1>Bright Light House</h1>
+<p><b>Our Light Collection</b></p>
+</header>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="Light.html">Lights</a>
+<a href="Order.html">Order</a>
+<a href="About.html">About</a>
+<a href="Contact.html">Contact</a>
+</nav>
+
+<h1 style="text-align:center;"class="r">Our Light Collection</h1>
+
+<div class="lights">
+
+<div class="box">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtwQdy4GG3tuplXqs2wYvWHXQveE_Sabri9ThziGSfyQ&s=10">
+<h2>LED Light</h2>
+<h3>Starting ₹199</h3>
+<button>Buy Now</button>
+</div>
+
+<div class="box">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpNPMgqki8SJWhTEiDh7MMZih5EjU7LAttFGHDr07IxA&s=10">
+<h2>Decoration Light</h2>
+<h3>Starting ₹299</h3>
+<button>Buy Now</button>
+</div>
+
+<div class="box">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2eBvEidcLmWRt0ZyhVENYGo_kdXX4g1-5DcyiBR0Yzg&s=10">
+<h2>Ceiling Light</h2>
+<h3>Starting ₹499</h3>
+<button>Buy Now</button>
+</div>
+
+<div class="box">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_9I3NMzVdssdM8QZ9OrFc5amxiUyHbApCl5c7HoJc7g&s=10">
+<h2>Fancy Light</h2>
+<h3>Starting ₹599</h3>
+<button>Buy Now</button>
+</div>
+
+<div class="box">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0-2Xre25R7vAtIkSzAZjVSwi7fybCV5M633IAO9VkFw&s=10">
+<h2>Tube Light</h2>
+<h3>Starting ₹149</h3>
+<button>Buy Now</button>
+</div>
+
+<div class="box">
+<img src="https://www.homedecorcompany.in/cdn/shop/files/O1CN01Jf7Sc71rvRd0RdFMF__4114325693-0-cib_1024x1024_2x_92c1fd3e-10a4-4c8a-8226-cb50a7b35b94.jpg?v=1750455617">
+<h2>Wall Light</h2>
+<h3>Starting ₹399</h3>
+<button>Buy Now</button>
+</div>
+
+<div class="box">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqtGykUg1xcFZn-s5Jf3zFQj5EGIPqY1m6J3HMM3_Ehg&s=10">
+<h2>Torch Light</h2>
+<h3>Starting ₹499</h3>
+<button>Buy Now</button>
+</div>
+
+<div class="box">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-dXcod0dpRbrAWeOb0wLed4JWS01EB_pmQM1C3VK20Q&s=10">
+<h2>Night Lamp</h2>
+<h3>Starting ₹399</h3>
+<button>Buy Now</button>
+</div>
+
+<div class="box">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEoQEaRdyM3E4h3f8UTCQj4K0Dorj6BMbL3vT3P-u4OA&s=10">
+<h2>Spot Light</h2>
+<h3>Starting ₹599</h3>
+<button>Buy Now</button>
+</div>
+
+<div class="box">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQipmUQ3UmUOFmjKd7hzJRmjgGMrJ6SVfwdHzEgFuYBrQ&s=10">
+<h2>Street Light</h2>
+<h3>starting ₹699</h3>
+<button>Buy Now</button>
+</div>
+</div>
+
+<footer>
+<p>© 2026 Bright Light House</p>
+</footer>
+
+</body>
+</html>
